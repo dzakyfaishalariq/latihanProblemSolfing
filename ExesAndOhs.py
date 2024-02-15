@@ -14,6 +14,10 @@ def xo(s):
             return True
         else:
             return False
+    elif "o" in s:
+        return False
+    elif "x" in s:
+        return False
     else:
         return True
     
