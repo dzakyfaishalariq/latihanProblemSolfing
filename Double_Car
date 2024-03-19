@@ -1,0 +1,7 @@
+def double_char(s):
+    s_split = [i for i in s]
+    s_split_double = [2*i for i in s_split]
+    return "".join(s_split_double)
+
+
+print(double_char("hallo"))
