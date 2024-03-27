@@ -1,5 +1,0 @@
-def remove_exlamation_marks(s):
-    return s.replace('!','')
-
-
-print(remove_exlamation_marks("hallo apa kabar!"))
